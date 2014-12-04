@@ -38,8 +38,9 @@ var powerbi;
                     window.addEventListener("message", function (e) { return _this.receiveMessage(e); });
                     // Detect the response from thirdparty. When receiver accepts the response, it will send it back to the iFrame.
                     if (window.location.search) {
+                        console.log("Response is: " + window.location.href);
                         window.opener.postMessage("Res=" + window.location.href, 'https://' + window.opener.location.host);
-                        window.close();
+                        //window.close();
                     }
                 };
             };
@@ -52,7 +53,11 @@ var powerbi;
                     this.popUpWindow(event.data, 550, 530);
                 }
                 else {
+                    console.log("In Iframe Response is: " + event.data.substring(4));
+                    console.log(this.targetSource);
+                    console.log(this.targetOrigin);
                     if (this.targetSource && this.targetOrigin) {
+                        console.log("Sending back!");
                         this.targetSource.postMessage(event.data.substring(4), this.targetOrigin);
                     }
                 }
