@@ -97,4 +97,3 @@ var powerbi;
     var receiver = new powerbi.thirdParty.OAuthRedirectHandler();
     receiver.start();
 })();
-//# sourceMappingURL=PowerBIThirdParty.js.map
