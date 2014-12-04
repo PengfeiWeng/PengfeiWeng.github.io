@@ -44,7 +44,7 @@ var powerbi;
                 if (window.location.search) {
                     console.log("sending back message");
                     event.source.postMessage(window.location.href, event.origin);
-                    window.close();
+                    //window.close();
                 }
             };
             OAuthRedirectHandler.prototype.verifySender = function (origin) {
