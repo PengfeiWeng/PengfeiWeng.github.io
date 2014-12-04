@@ -39,6 +39,8 @@ var powerbi;
                     // Detect the response from thirdparty. When receiver accepts the response, it will send it back to the iFrame.
                     if (window.location.search) {
                         console.log("Response is: " + window.location.href);
+                        console.log(window.opener);
+                        console.log(window.opener.location.host);
                         window.opener.postMessage("Res=" + window.location.href, 'https://' + window.opener.location.host);
                         //window.close();
                     }
