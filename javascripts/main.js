@@ -81,7 +81,7 @@ var powerbi;
                 leftOffset += window.screenX;
                 var topOffset = (window.outerHeight - height) / 2;
                 topOffset += window.screenY;
-                return window.open('/popupredirect.html?url=' + encodeURIComponent(url), '_blank', 'top=' + topOffset + ', left=' + leftOffset + ', screenX=' + leftOffset + ', screenY=' + topOffset + ', width=' + width + ', height=' + height + ', resizable=yes');
+                return window.open(url, '_blank', 'top=' + topOffset + ', left=' + leftOffset + ', screenX=' + leftOffset + ', screenY=' + topOffset + ', width=' + width + ', height=' + height + ', resizable=yes');
             };
             return OAuthRedirectHandler;
         })();
