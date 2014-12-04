@@ -47,8 +47,8 @@ var powerbi;
                 };
             };
             OAuthRedirectHandler.prototype.receiveMessage = function (event) {
-                if (this.verifySender(event.origin) !== true)
-                    return;
+                //if (this.verifySender(event.origin) !== true)
+                //    return;
                 if (event.data.substring(0, 4) !== "Res=") {
                     this.targetSource = event.source;
                     this.targetOrigin = event.origin;
