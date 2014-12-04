@@ -38,9 +38,7 @@ var powerbi;
                     window.addEventListener("message", function (e) { return _this.receiveMessage(e); });
                     // Detect the response from thirdparty. When receiver accepts the response, it will send it back to the iFrame.
                     if (window.location.search) {
-                        console.log("Response is: " + window.location.href);
-                        console.log(window.opener);
-                        console.log(window.opener.location.host);
+                        console.log("In Popup window response is: " + window.location.href);
                         window.opener.postMessage("Res=" + window.location.href, 'https://' + window.opener.location.host);
                         //window.close();
                     }
@@ -56,10 +54,8 @@ var powerbi;
                 }
                 else {
                     console.log("In Iframe Response is: " + event.data.substring(4));
-                    console.log(this.targetSource);
-                    console.log(this.targetOrigin);
                     if (this.targetSource && this.targetOrigin) {
-                        console.log("Sending back!");
+                        console.log("Sending response back to host page!");
                         this.targetSource.postMessage(event.data.substring(4), this.targetOrigin);
                     }
                 }
