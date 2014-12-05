@@ -1,16 +1,34 @@
-<!DOCTYPE html>
-<html>
+<div>
+    <modal-dialog class="authDialog" auth-dialog="context" context="dialogModel" ng-if="context.showModalDialog" on-confirm-action="confirmDialog()" on-cancel-action="closeDialog()" on-close-action="closeDialog()">
+        <div class="title"><span localize="AuthDialog_Configure"></span> {{context.datasource.name}}</div>
 
-  <head>
-    <script data-require="jquery@*" data-semver="1.4.2" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
-    <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
-  </head>
+        <inline-warning ng-if="context.showError">
+            <span localize="AuthDialog_Error_LoginFailed"></span>'{{context.editableField1Value}}'
+        </inline-warning>
 
-  <body id="test">
-    <div class="signIn">
-      <iframe id="temp" src="https://angularjs.org/"></iframe>
-    </div>
-  </body>
+        <div class="disabledField" ng-repeat="property in context.datasource.connectionStringGeneralProperties">
+            <span>{{property.name}}</span>
+            <input type="text" value="{{property.value}}" />
+        </div>
 
-</html>
+        <div class="group" localize="AuthDialog_FieldName_Authentication"></div>
+        <!-- nToDo: Using ng-click in the following <select> because ng-change does not fire -->
+        <select ng-model="context.selectedAuthenticationIndex" ng-click="customizeAuthDialog()" 
+            ng-options="context.datasource.credentialTypes.indexOf(credentialType) as credentialType for credentialType in context.datasource.credentialTypes" />
+
+        <div class="editableField1" ng-if="context.showEditableField1">
+            <span>{{context.editableField1Label}}</span>
+            <input type="text" value="{{context.editableField1Value}}" ng-model="context.editableField1Value" ng-change="dismissSpinnerError()" />
+        </div>
+        <div class="editableField2" ng-if="context.showEditableField2">
+            <span>{{context.editableField2Label}}</span>
+            <input type="password" value="{{context.editableField2Value}}" ng-model="context.editableField2Value" ng-change="dismissSpinnerError()" />
+        </div>
+        <div class="signIn" ng-if="context.showSignIn">
+            <button ng-click="signInThroughOAuth()" localize="AuthDialog_LinkText_SingIn"></button>
+        </div>
+
+        <div class="waitingSpinnerCenterContainer" ng-if="context.showSpinner" />
+
+    </modal-dialog>
+</div>
