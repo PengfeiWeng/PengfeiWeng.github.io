@@ -11,7 +11,7 @@ var powerbi;
         (function (constants) {
             constants.defaultWindowWidth = 600;
             constants.defaultWindowHeight = 480;
-            constants.autherizedDomains = ['portal.analysis.windows-int.net', 'preview.powerbi.com', 'analysis.windows.net', 'analysis.windows-int.net'];
+            constants.autherizedDomains = ['portal.analysis.windows-int.net', 'preview.powerbi.com', '.analysis.windows.net', '.analysis.windows-int.net', '.analysis-df.windows.net', 'app.powerbi.com'];
         })(constants = thirdParty.constants || (thirdParty.constants = {}));
     })(thirdParty = powerbi.thirdParty || (powerbi.thirdParty = {}));
 })(powerbi || (powerbi = {}));
@@ -21,6 +21,11 @@ var powerbi;
 // </copyright>
 //-----------------------------------------------------------------------
 /// <reference path="constants.ts" />
+/*
+    These codes will be executed in two places: iFrame window and pop-up redirect window.
+    After user logs in, pop-up redirect window will send the response back to iFrame window.
+    Then iFrame window will post it to the powerbi host page.
+*/
 var powerbi;
 (function (powerbi) {
     var thirdParty;
@@ -28,35 +33,43 @@ var powerbi;
         var OAuthRedirectHandler = (function () {
             function OAuthRedirectHandler() {
                 this.autherizedDomains = thirdParty.constants.autherizedDomains;
-                this.targetSource = null;
-                this.targetOrigin = null;
+                this.hostSource = null;
+                this.hostOrigin = null;
+                this.popedWindow = null;
             }
             OAuthRedirectHandler.prototype.start = function () {
                 var _this = this;
                 window.onload = function () {
-                    // Listen to the senders
+                    // Listen to the host page.
                     window.addEventListener("message", function (e) { return _this.receiveMessage(e); });
-                    // Detect the response from thirdparty. When receiver accepts the response, it will send it back to the iFrame.
+                    // Detect the response from thirdparty in pop-up redirect window. 
+                    // When pop-up redirect window receives the response, it will send it back to the iFrame.
                     if (window.location.search) {
-                        console.log("In Popup window response is: " + window.location.href);
+                        // To pop-up redirect window, window.opener will be the iFrame.
                         window.opener.postMessage("Res=" + window.location.href, 'https://' + window.opener.location.host);
-                        //window.close();
                     }
                 };
             };
+            // Only iFrame window will run this function since nobody sends message to the pop-up window.
             OAuthRedirectHandler.prototype.receiveMessage = function (event) {
-                //if (this.verifySender(event.origin) !== true)
-                //    return;
+                console.log("Received messsage in iFrame");
+                if (this.verifySender(event.origin) !== true) {
+                    console.log("invalid sender");
+                    return;
+                }
                 if (event.data.substring(0, 4) !== "Res=") {
-                    this.targetSource = event.source;
-                    this.targetOrigin = event.origin;
-                    this.popUpWindow(event.data, 550, 530);
+                    // This is the message from powerbi host window
+                    this.hostSource = event.source;
+                    this.hostOrigin = event.origin;
+                    this.popedWindow = this.popUpWindow(event.data, 550, 530);
                 }
                 else {
-                    console.log("In Iframe Response is: " + event.data.substring(4));
-                    if (this.targetSource && this.targetOrigin) {
-                        console.log("Sending response back to host page!");
-                        this.targetSource.postMessage(event.data.substring(4), this.targetOrigin);
+                    // This is the message from pop-up window
+                    if (this.hostSource && this.hostOrigin) {
+                        this.hostSource.postMessage(event.data.substring(4), this.hostOrigin);
+                    }
+                    if (this.popedWindow) {
+                        this.popedWindow.close();
                     }
                 }
             };
@@ -84,6 +97,7 @@ var powerbi;
                 leftOffset += window.screenX;
                 var topOffset = (window.outerHeight - height) / 2;
                 topOffset += window.screenY;
+                // We are using /popupredirect.html to avoid the case that some browsers will block the pop-up window from a different domain.
                 return window.open(url, '_blank', 'top=' + topOffset + ', left=' + leftOffset + ', screenX=' + leftOffset + ', screenY=' + topOffset + ', width=' + width + ', height=' + height + ', resizable=yes');
             };
             return OAuthRedirectHandler;
