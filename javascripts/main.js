@@ -46,6 +46,7 @@ var powerbi;
                     // When pop-up redirect window receives the response, it will send it back to iFrame.
                     if (window.location.search) {
                         // To pop-up redirect window, window.opener will be the iFrame.
+                        console.log("pop u psend back " + window.location.href);
                         window.opener.postMessage("Res=" + window.location.href, 'https://' + window.opener.location.host);
                     }
                 };
@@ -59,10 +60,13 @@ var powerbi;
                     this.hostSource = event.source;
                     this.hostOrigin = event.origin;
                     this.popedWindow = this.popUpWindow(event.data, 550, 530);
+                    
+                    console.log("host origin " + this.hostOrigin);
                 }
                 else {
                     // This message is from pop-up window
                     if (this.hostSource && this.hostOrigin) {
+                        console.log("post back to host: " + event.data.substring(4));
                         this.hostSource.postMessage(event.data.substring(4), this.hostOrigin);
                     }
                     if (this.popedWindow) {
