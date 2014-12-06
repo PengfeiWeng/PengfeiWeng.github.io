@@ -58,20 +58,16 @@ var powerbi;
                     console.log("Invalid sender");
                     return;
                 }
-                console.log("Valid sender");
                 
                 if (event.data.substring(0, 4) !== "Res=") {
                     // This message is from powerbi host window
                     this.hostSource = event.source;
                     this.hostOrigin = event.origin;
                     this.popedWindow = this.popUpWindow(event.data, 550, 530);
-                    
-                    console.log("host origin " + this.hostOrigin);
                 }
                 else {
                     // This message is from pop-up window
                     if (this.hostSource && this.hostOrigin) {
-                        console.log("post back to host: " + event.data.substring(4));
                         this.hostSource.postMessage(event.data.substring(4), this.hostOrigin);
                     }
                     if (this.popedWindow) {
