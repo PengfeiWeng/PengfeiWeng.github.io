@@ -11,7 +11,7 @@ var powerbi;
         (function (constants) {
             constants.defaultWindowWidth = 600;
             constants.defaultWindowHeight = 480;
-            constants.autherizedDomains = ['portal.analysis.windows-int.net', 'preview.powerbi.com', 'analysis.windows.net', 'analysis.windows-int.net'];
+            constants.autherizedDomains = ['portal.analysis.windows-int.net', 'preview.powerbi.com', 'analysis.windows.net', 'analysis.windows-int.net', 'pengfeiweng.github.io/'];
         })(constants = thirdParty.constants || (thirdParty.constants = {}));
     })(thirdParty = powerbi.thirdParty || (powerbi.thirdParty = {}));
 })(powerbi || (powerbi = {}));
@@ -46,7 +46,7 @@ var powerbi;
                     // When pop-up redirect window receives the response, it will send it back to iFrame.
                     if (window.location.search) {
                         // To pop-up redirect window, window.opener will be the iFrame.
-                        console.log("pop u psend back " + window.location.href);
+                        console.log("pop up send back " + window.location.href);
                         window.opener.postMessage("Res=" + window.location.href, 'https://' + window.opener.location.host);
                     }
                 };
