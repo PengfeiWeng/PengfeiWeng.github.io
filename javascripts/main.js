@@ -53,8 +53,13 @@ var powerbi;
             };
             // Only iFrame window will run this function since nobody sends message to the pop-up window.
             OAuthRedirectHandler.prototype.receiveMessage = function (event) {
-                if (this.verifySender(event.origin) !== true)
+                
+                if (this.verifySender(event.origin) !== true) {
+                    console.log("Invalid sender");
                     return;
+                }
+                console.log("Valid sender");
+                
                 if (event.data.substring(0, 4) !== "Res=") {
                     // This message is from powerbi host window
                     this.hostSource = event.source;
