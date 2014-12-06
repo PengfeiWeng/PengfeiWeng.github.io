@@ -11,7 +11,7 @@ var powerbi;
         (function (constants) {
             constants.defaultWindowWidth = 600;
             constants.defaultWindowHeight = 480;
-            constants.autherizedDomains = ['portal.analysis.windows-int.net', 'preview.powerbi.com', 'analysis.windows.net', 'analysis.windows-int.net', 'pengfeiweng.github.io/'];
+            constants.autherizedDomains = ['portal.analysis.windows-int.net', 'preview.powerbi.com', 'analysis.windows.net', 'analysis.windows-int.net', 'pengfeiweng.github.io'];
         })(constants = thirdParty.constants || (thirdParty.constants = {}));
     })(thirdParty = powerbi.thirdParty || (powerbi.thirdParty = {}));
 })(powerbi || (powerbi = {}));
