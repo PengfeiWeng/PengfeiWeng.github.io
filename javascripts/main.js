@@ -11,7 +11,7 @@ var powerbi;
         (function (constants) {
             constants.defaultWindowWidth = 600;
             constants.defaultWindowHeight = 480;
-            constants.autherizedDomains = ['portal.analysis.windows-int.net', 'preview.powerbi.com', '.analysis.windows.net', '.analysis.windows-int.net', '.analysis-df.windows.net', 'app.powerbi.com'];
+            constants.autherizedDomains = ['portal.analysis.windows-int.net', 'preview.powerbi.com', 'analysis.windows.net', 'analysis.windows-int.net'];
         })(constants = thirdParty.constants || (thirdParty.constants = {}));
     })(thirdParty = powerbi.thirdParty || (powerbi.thirdParty = {}));
 })(powerbi || (powerbi = {}));
@@ -42,8 +42,8 @@ var powerbi;
                 window.onload = function () {
                     // Listen to the host page.
                     window.addEventListener("message", function (e) { return _this.receiveMessage(e); });
-                    // Detect the response from thirdparty in pop-up redirect window. 
-                    // When pop-up redirect window receives the response, it will send it back to the iFrame.
+                    // Detect the response from thirdparty to pop-up redirect window. 
+                    // When pop-up redirect window receives the response, it will send it back to iFrame.
                     if (window.location.search) {
                         // To pop-up redirect window, window.opener will be the iFrame.
                         window.opener.postMessage("Res=" + window.location.href, 'https://' + window.opener.location.host);
@@ -52,19 +52,16 @@ var powerbi;
             };
             // Only iFrame window will run this function since nobody sends message to the pop-up window.
             OAuthRedirectHandler.prototype.receiveMessage = function (event) {
-                console.log("Received messsage in iFrame");
-                if (this.verifySender(event.origin) !== true) {
-                    console.log("invalid sender");
+                if (this.verifySender(event.origin) !== true)
                     return;
-                }
                 if (event.data.substring(0, 4) !== "Res=") {
-                    // This is the message from powerbi host window
+                    // This message is from powerbi host window
                     this.hostSource = event.source;
                     this.hostOrigin = event.origin;
                     this.popedWindow = this.popUpWindow(event.data, 550, 530);
                 }
                 else {
-                    // This is the message from pop-up window
+                    // This message is from pop-up window
                     if (this.hostSource && this.hostOrigin) {
                         this.hostSource.postMessage(event.data.substring(4), this.hostOrigin);
                     }
