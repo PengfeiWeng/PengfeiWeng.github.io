@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="tripplanner">
 	<head>
 		<meta charset="UTF-8">
 		<title>Trip Planner</title>
@@ -7,50 +7,22 @@
 		<meta name="description" content="Trip Planner">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<!-- Bootstrap Stylesheets http://getbootstrap.com -->
+		<!-- Bootstrap Stylesheets -->
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
-
 		<!-- Our Website CSS Styles -->
 		<link rel="stylesheet" href="css/main.css">
+		<!-- Angular 2.0.0 -->
+		<script data-require="angular.js@2.0.0" data-semver="2.0.0" src="https://code.angularjs.org/2.0.0-beta.6/angular2.min.js"></script>
+		<!-- Controller -->
+		<script rel="text/javascript" src="js/main.js"></script>
+		<script rel="text/javascript" src="js/controller.js"></script>
 	</head>
-	<body>
-		<header>
-			<h1>Pengfei Weng</h1>
-			<nav>
-				<a href="#one">One</a>
-				<a href="#two">Two</a>
-				<a href="#three">Three</a>
-				<a href="http://www.google.com">Google</a>
-			</nav>
-		</header>
+	<body ng-controller='plannerController'>
+		<header></header>
 		<main>
-			<section class="half">
-				<h2 id="one">Favorite Foods</h2>
-				<ul>
-					<li>KFC</li>
-					<li>Hot pot</li>
-					<li>Crab pot</li>
-					<li>labula</li>
-				</ul>
-			</section>
-			<section class="half">
-				<h2 id="two">Achievements</h2>
-				<p>Progress in this course (100%) <progress value="100" max="100"></progress></p>
-				<p>Progress in the Specialization capstone (20%) <progress value="20" max="100"></progress></p>
-				<p>Progress in life goal (1%) <progress value="10" max="100"></progress></p>
-			</section>
-			<section class="whole">
-				<h2 id="three">More About Me</h2>
-				<details open>
-					<summary>My Childhood</summary>
-					<p>I grew up in China and came to United States in 2011 for a master degree. I want to say more but space limited.</p>
-				</details>
-			</section>
 		</main>
-		<footer>
-			<span>This page was created by Pengfei Weng &amp; Colleen van Lent. To learn more about web design, visit <a href="http://www.intro-webdesign.com/">Intro to Web Design</a>.</span>
-		</footer>
+		<footer></footer>
 	</body>
 </html>
