@@ -1,28 +1,26 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="tripplanner">
-	<head>
-		<meta charset="UTF-8">
-		<title>Trip Planner</title>
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<meta name="description" content="Trip Planner">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+<html ng-app="tripPlanner" lang='en'>
+  <head>
+  	<meta charset="UTF-8">
+	<title>Trip Planner</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="description" content="Trip Planner">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/main.css">
+    <script data-require="angular.js@*" data-semver="1.5.0" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.js"></script>
+    <script data-require="angular-route@*" data-semver="1.4.8" src="https://code.angularjs.org/1.4.8/angular-route.js"></script>
+    <script data-require="jquery@*" data-semver="2.2.0" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="scripts/tripPlanner.js"></script>
+    <script src="scripts/controllers/mainController.js"></script>
+    <!-- <script src="scripts/controllers/tourController.js"></script> -->
+  </head>
 
-		<!-- Bootstrap Stylesheets -->
-		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
-		<!-- Our Website CSS Styles -->
-		<link rel="stylesheet" href="css/main.css">
-		<!-- Angular 2.0.0 -->
-		<script data-require="angular.js@2.0.0" data-semver="2.0.0" src="https://code.angularjs.org/2.0.0-beta.6/angular2.min.js"></script>
-		<!-- Controller -->
-		<script rel="text/javascript" src="js/main.js"></script>
-		<script rel="text/javascript" src="js/controller.js"></script>
-	</head>
-	<body ng-controller='plannerController'>
-		<header></header>
-		<main>
-		</main>
-		<footer></footer>
-	</body>
+  <body>
+  	<h1>Trip Planner</h1>
+  	<div ng-view></div>
+  </body>
+  
 </html>
