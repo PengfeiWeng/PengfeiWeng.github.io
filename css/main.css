@@ -18,8 +18,10 @@ body {
 }
 
 .fill-screen {
-	background-size: cover;
-	background-position: center;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
 }
 
 .logo {
@@ -86,13 +88,25 @@ body {
 }
 
 .activity img {
+	display: block;
 	width: 150px;
 	height: 150px;
+	margin: 0 auto;
 }
 
 .contact-us {
 	margin: 50px;
 	text-align: center;
+}
+
+#carousel {
+	margin: 40px 0;
+}
+
+#carousel img {
+	margin: 0 auto;
+	width: 800px;
+	height: 600px;
 }
 
 footer {
