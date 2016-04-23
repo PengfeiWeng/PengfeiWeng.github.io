@@ -2,7 +2,7 @@
 <html ng-app="tripPlanner" lang='en'>
   <head>
   	<meta charset="UTF-8">
-	<title>Trip Planner</title>
+	<title>Explore the world</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="description" content="Trip Planner">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -18,7 +18,7 @@
     <script data-require="bootstrap@*" data-semver="3.3.6" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   </head>
   
-  <body>
+  <body ng-controller="MainController">
   	<header>
   	<nav class="navbar navbar-default navbar-fixed-top cbp-af-header">
 	  <div class="container-fluid">
@@ -30,16 +30,15 @@
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>
 	      </button>
-	      <a class="navbar-brand" href="#destination">TRIP PLANNER</a>
+	      <a class="navbar-brand" href="#destination">YANA</a>
 	    </div>
 	
 	    <!-- Collect the nav links, forms, and other content for toggling -->
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	      <ul class="nav navbar-nav navbar-right">
-	        <li><a href="#destination">Destination</a></li>
-	        <li><a href="#tour">Tours</a></li>
-	        <li><a href="#activities">Activities</a></li>
-	        <li><a href="#contactUs">Contact Us</a></li>
+	        <li><a href="#yourtrip">Your Trip</a></li>
+	        <li><a href="#destinations">Destinations</a></li>
+	        <li><a href="#aboutus">About Us</a></li>
 	      </ul>
 	    </div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->
@@ -47,57 +46,79 @@
   	</header>
   	
   		<div class='container-fluid'>
-  			<section class='row' id='destination'>
+  			<section class='row' id='yourtrip'>
   				<div class='fill-screen stellar-bg first-img' data-stellar-background-ratio='0.3'></div>
-  				<div class='logo'>TRIP PLANNER</div>
-  				<a class='down-button' href='#tour'>
+  				<img class='logo' src="imgs/logo.png" alt="YANA" height="200" width="320">
+  				
+  				<div class="row">
+				  <div class="input-group">
+				      <input type="text" class="form-control" placeholder="Search for..." ng-model="location">
+				      <span class="input-group-btn">
+				        <button class="btn btn-default" type="button" ng-click="showMap()">Go!</button>
+				      </span>
+				  </div><!-- /input-group -->
+				</div><!-- /.row -->
+				
+  				<a class='down-button' href='#destinations'>
   					<i class='fa fa-arrow-circle-down fa-4x'></i>
   				</a>
   			</section>
   			
   			<section class='row text-banner'>
-  				<h1>ABOUT TRIP PLANNER</h1>
+  				<h1>ABOUT YANA</h1>
   				<p>
-  					We can make it awesome and useful and profitable! or dead?
+  					It's our greatest honor to help you plan the trips!
   				</p>
   			</section>
   			
-  			<section class='row'  id='tour'>
-  				<div class='fill-screen fixed-attachment second-img'></div>
+  			<section class='row'  id='destinations'>
+  				<div class='fill-screen fixed-attachment second-img'>
+  					<h1>Discover unknown</h1>
+  					<p>Go somewhere you've dreamed of.</p>
+  					
+  					<figure class='figure col-md-4'>
+	  					<img src='imgs/Seattle.jpg' class='img-rounded city' />
+	  				</figure>
+	  				<figure class='figure col-md-4'>
+	  					<img src='imgs/SanDiego.jpg' class='img-rounded city' />
+	  				</figure>
+	  				<figure class='figure col-md-4'>
+	  					<img src='imgs/NewYork.jpg' class='img-rounded city' />
+	  				</figure>
+	  				
+	  				<button class="btn btn-default seeAllCity" type="submit">See all the cities</button>
+  				</div>
   			</section>
   			
+  			<!--
   			<section class='row activity-section'>
-  				<div class='activity col-md-4 wow fadeInDown'>
+  				<div class='activity col-md-4 fadeInDown'>
   					<a href='http://www.google.com'>
   						<img src='imgs/icons/google.png' />
   					</a>
   				</div>
-  				<div class='activity col-md-4 wow fadeInDown'>
+  				<div class='activity col-md-4 fadeInDown'>
   					<a href='http://www.yahoo.com'>
   						<img src='imgs/icons/yahoo.png' />
   					</a>
   				</div>
-  				<div class='activity col-md-4 wow fadeInDown'>
+  				<div class='activity col-md-4 fadeInDown'>
   					<a href='http://www.ebay.com'>
   						<img src='imgs/icons/ebay.png' />
   					</a>
   				</div>
   			</section>
+  			-->
   			
-  			<section class='row' id='activities'>
-  				<div class='fill-screen fixed-attachment third-img'></div>
-  			</section>
-  			
+  			<!--  
   			<section class='row'>
 	  			<div id="carousel" class="carousel slide" data-ride="carousel">
-				  <!-- Indicators -->
 				  <ol class="carousel-indicators">
 				    <li data-target="#carousel" data-slide-to="0" class="active"></li>
 				    <li data-target="#carousel" data-slide-to="1"></li>
 				    <li data-target="#carousel" data-slide-to="2"></li>
 				  </ol>
 				
-				  <!-- Wrapper for slides -->
 				  <div class="carousel-inner" role="listbox">
 				    <div class="item active">
 				      <img src="imgs/pubu.jpg" alt="First Image">
@@ -118,8 +139,7 @@
 				      </div>
 				    </div>
 				  </div>
-				
-				  <!-- Controls -->
+
 				  <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
 				    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 				    <span class="sr-only">Previous</span>
@@ -130,57 +150,64 @@
 				  </a>
 				</div>
   			</section>
+  			-->
   			
-  			<section class='row' id='contactUs'>
+  			<section class='row' id='aboutus'>
   				<div class='fill-screen fixed-attachment forth-img'>
-	  				<figure class='figure col-md-6 wow fadeInDown'>
+  					<h1>Our Team</h1>
+  					<p>We love PEACE! We love PEACE! We love PEACE!</p>
+	  				<figure class='figure col-md-4'>
 	  					<img src='imgs/portrait/jason.jpg' class='img-circle' alt='Jason'/>
 	  					<figcaption class="figure-caption text-center label label-info">眼高手低的理想主义者</figcaption>
 	  				</figure>
-	  				<figure class='figure col-md-6 wow fadeInDown'>
+	  				<figure class='figure col-md-4'>
 	  					<img src='imgs/portrait/kunna.jpg' class='img-circle' alt='Kunna'/>
-	  					<figcaption class="figure-caption text-center label label-primary">梦想成为PM的伪程序猿</figcaption>
+	  					<figcaption class="figure-caption text-center label label-danger">梦想成为PM的伪程序猿</figcaption>
+	  				</figure>
+	  				<figure class='figure col-md-4'>
+	  					<img src='imgs/portrait/junlin.jpg' class='img-circle' alt='Junlin'/>
+	  					<figcaption class="figure-caption text-center label label-default">资质平平的全栈工程师</figcaption>
+	  				</figure>
+	  				<figure class='figure col-md-4'>
+	  					<img src='imgs/portrait/qiushi.jpg' class='img-circle' alt='QiushiQinglili'/>
+	  					<figcaption class="figure-caption text-center label label-primary">战斗力低下的逗比夫妻</figcaption>
+	  				</figure>
+	  				<figure class='figure col-md-4'>
+	  					<img src='imgs/portrait/xinzhi.jpg' class='img-circle' alt='Xinzhi'/>
+	  					<figcaption class="figure-caption text-center label label-success">主攻后端的段子手</figcaption>
+	  				</figure>
+	  				<figure class='figure col-md-4'>
+	  					<img src='imgs/portrait/sijiqing.jpg' class='img-circle' alt='Jiqing'/>
+	  					<figcaption class="figure-caption text-center label label-warning">涉世未深的MBA</figcaption>
 	  				</figure>
   				</div>
-  				
-  			</section>
-  			
-  			<section class='row contact-us'>
-  				<h2>Contact Us</h2>
-  				<p><a href='https://www.facebook.com/PengfeiWeng'>Facebook</a></p>
-  				<p><a href='http://weibo.com/wengpengfei'>Weibo</a></p>
   			</section>
   		</div>
-
-  	<!-- 
-  	<h1>Trip Planner Test</h1>
-  	<div ng-view></div>
-  	 -->
   	
   	<footer class='container-fluid'>
-  		<h1>@Copyright</h1>
+  		<h2>Contact Us</h2>
+  		<p><a href='https://www.facebook.com/PengfeiWeng'>Facebook</a></p>
+  		<p><a href='http://weibo.com/wengpengfei'>Weibo</a></p>
   	</footer>
   	
   	<script src="scripts/tripPlanner.js"></script>
-    <script src="scripts/controllers/mainController.js"></script>
-    <script src="scripts/controllers/tourController.js"></script>
     <script src="scripts/external/classie.js"></script>
     <script src="scripts/external/cbpAnimatedHeader.js"></script>
     <script src="scripts/external/jquery.easing.1.3.js"></script>
     <script src="scripts/external/jquery.stellar.js"></script>
-    <script src="scripts/external/wow.js"></script>
     <script>
     	$(function(){
+    		/***
+    		 * This is all about styling. Please DO NOT change!!!
+    		 */
     		// make the background image attached to the window
     		$(window).on('load resize', function(){
     			$('.fill-screen').css('height', window.innerHeight);
     		});
-    		
     		// update sataus of navigation bar
     		$('body').scrollspy({
     			target: '.navbar'
     		});
-    		
     		// Scroll smoothly
     		$('nav a, .down-button').bind('click', function(){
     			$('html, body').animate({
@@ -188,11 +215,7 @@
     			}, 1500, 'easeInOutExpo');
     			event.preventDefault();
     		});
-    		
     		$(window).stellar();
-    		
-    		// Add animation
-    		new WOW().init();
     	});
     </script>
   </body>

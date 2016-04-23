@@ -28,16 +28,45 @@ body {
 }
 
 .logo {
-	color: #FFFFFF;
-	text-align: center;
-	font-size: 60px;
-	font-weight: 900;
 	display: inline-block;
 	position: absolute;
 	padding: 20px;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+}
+
+.input-group {
+	display: inline-block;
+	position: absolute;
+	padding: 10px;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 20%;
+	height: 10%;
+	min-height: 80px;
+	min-width: 120px;
+}
+
+.input-group .form-control {
+	height: 100%;
+    width: 90%;
+    font-size: 30px;
+    display: inline-block;
+    max-width: 300px;
+}
+
+.input-group .input-group-btn {
+	height: 100%;
+    width: 10%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.input-group .input-group-btn .btn {
+	height: 100%;
+	font-size: 25px;
 }
 
 .down-button {
@@ -58,15 +87,11 @@ body {
 
 .fill-screen.first-img {
 	background-image: url(../imgs/Sakura.jpg);
-	opacity: 0.5;
+	opacity: 0.75;
 }
 
 .fill-screen.second-img {
 	background-image: url(../imgs/HurricaneRage.jpg);
-}
-
-.fill-screen.third-img {
-	background-image: url(../imgs/Lake.jpg);
 }
 
 .fill-screen.forth-img {
@@ -97,28 +122,72 @@ body {
 	margin: 0 auto;
 }
 
+.seeAllCity {
+	margin: 0 auto;
+    height: 40px;
+    width: 24%;
+    font-size: 20px;
+    display: block;
+}
+
 .contact-us {
-	margin: 50px;
+	margin: 0 50px;
 	text-align: center;
 }
 
 .figure img {
 	display: block;
-	width: 120px;
-	height: 120px;
-	margin: 45% auto 0 auto;
-	opacity: 0.8;
+	width: 160px;
+	height: 160px;
+	margin: 20% auto 0;
 }
 
-.figure img:hover {
-	opacity: 1;
+.figure .city {
+	display: block;
+	width: 88%;
+	height: 66%;
+	margin: 10% auto;
 }
 
 .figure figcaption {
-	margin: 40px 30%;
-	font-size: 22px;
+	display: block;
+	width: 70%;
+	margin: 0 auto;
+	font-size: 20px;
 	font-weight: 900;
 	color: #000000;
+}
+
+#destinations h1 {
+	display: block;
+	margin: 0 auto;
+    padding: 50px 0 30px;
+	width: 30%;
+	text-align: center;
+}
+
+#destinations p {
+	display: block;
+    margin: 5px auto;
+    width: 40%;
+    text-align: center;
+    font-size: 22px;
+}
+
+#aboutus h1 {
+	display: block;
+	margin: 0 auto;
+    padding: 50px 0 30px;
+	width: 30%;
+	text-align: center;
+}
+
+#aboutus p {
+	display: block;
+    margin: 5px auto;
+    width: 40%;
+    text-align: center;
+    font-size: 22px;
 }
 
 .figure figcaption .lable {
@@ -138,6 +207,5 @@ body {
 footer {
   background: rgba(0, 0, 0, 0.1);
   color: #DDD;
-  padding: 20px 0;
   text-align: center;
 }
