@@ -1,0 +1,1746 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>黄石之行</name>
+		<description><![CDATA[2015年7月 辩论队]]></description>
+		<Folder>
+			<name>黄石备选景点</name>
+			<Placemark>
+				<name>Mt Washburn</name>
+				<description><![CDATA[http://www.tripadvisor.com/Attraction_Review-g60999-d144849-Reviews-Mount_Washburn-Yellowstone_National_Park_Wyoming.html]]></description>
+				<styleUrl>#icon-1197</styleUrl>
+				<Point>
+					<coordinates>-110.434368,44.797716,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>大提顿备选景点</name>
+		</Folder>
+		<Folder>
+			<name>备选Lodging</name>
+			<Placemark>
+				<name>Cody Cowboy Village</name>
+				<styleUrl>#icon-1197-nodesc</styleUrl>
+				<Point>
+					<coordinates>-109.09473000000004,44.517312,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>盐湖城</name>
+			<Placemark>
+				<name>Salt Lake City</name>
+				<styleUrl>#icon-1417-nodesc</styleUrl>
+				<Point>
+					<coordinates>-111.878688,40.706668,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Hyatt House Salt Lake City/Downtown</name>
+				<styleUrl>#icon-1381-nodesc</styleUrl>
+				<Point>
+					<coordinates>-111.90024299999999,40.766751,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Costco Depot</name>
+				<description><![CDATA[5995 West 300 South, Salt Lake City, UT 84104]]></description>
+				<styleUrl>#icon-960-DB4436</styleUrl>
+				<Point>
+					<coordinates>-112.03220099999999,40.758266,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>day1 (6-28) -盐湖城至大提顿</name>
+			<Placemark>
+				<name>Craig Thomas Discovery and Visitor Center</name>
+				<description><![CDATA[进入Tenton Pk Rd的拐角]]></description>
+				<styleUrl>#icon-960-DB4436</styleUrl>
+				<Point>
+					<coordinates>-110.71855800000003,43.653402,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Jenny Lake Boating</name>
+				<description><![CDATA[此处坐船去对岸]]></description>
+				<styleUrl>#icon-1441</styleUrl>
+				<Point>
+					<coordinates>-110.72571399999998,43.751676,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Jenny Lake</name>
+				<description><![CDATA[坐船到对岸，走Trail，看Hidden Fall和Inspiration Point]]></description>
+				<styleUrl>#icon-503-0BA9CC</styleUrl>
+				<Point>
+					<coordinates>-110.731659,43.761386,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Signal Mountain</name>
+				<styleUrl>#icon-1371-nodesc</styleUrl>
+				<Point>
+					<coordinates>-110.56715199999996,43.8488292,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Signal Mountain Lodge</name>
+				<description><![CDATA[住宿]]></description>
+				<styleUrl>#icon-1381</styleUrl>
+				<Point>
+					<coordinates>-110.611377,43.843317,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Jenny Lake Visitor Center</name>
+				<description><![CDATA[Jenny Lake 集合处]]></description>
+				<styleUrl>#icon-960-DB4436</styleUrl>
+				<Point>
+					<coordinates>-110.722329,43.751479,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Shell</name>
+				<styleUrl>#icon-1027-nodesc</styleUrl>
+				<Point>
+					<coordinates>-110.77373599999999,43.475647,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Chevron Mccammon</name>
+				<styleUrl>#icon-1027-nodesc</styleUrl>
+				<Point>
+					<coordinates>-112.20434899999998,42.661296,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Flying J Travel Plaza</name>
+				<styleUrl>#icon-979-nodesc</styleUrl>
+				<Point>
+					<coordinates>-112.206818,42.66042000000001,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Sunny Side Gas Station</name>
+				<styleUrl>#icon-1027-nodesc</styleUrl>
+				<Point>
+					<coordinates>-112.02575000000002,42.627424,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Chevron</name>
+				<styleUrl>#icon-1027-nodesc</styleUrl>
+				<Point>
+					<coordinates>-111.59569599999999,42.655074,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Starbucks</name>
+				<styleUrl>#icon-979-nodesc</styleUrl>
+				<Point>
+					<coordinates>-112.44292999999999,42.862281,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Chevron</name>
+				<styleUrl>#icon-1027-nodesc</styleUrl>
+				<Point>
+					<coordinates>-112.43954100000002,42.863519,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Exxon</name>
+				<styleUrl>#icon-1027-nodesc</styleUrl>
+				<Point>
+					<coordinates>-111.339405,43.451381,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Rainey Creek Country Store</name>
+				<styleUrl>#icon-979-nodesc</styleUrl>
+				<Point>
+					<coordinates>-111.339067,43.451362,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>day2 (6-29)</name>
+			<Placemark>
+				<name>Oxbow Bend Turnout</name>
+				<description><![CDATA[看日出，摄影的绝佳场所]]></description>
+				<styleUrl>#icon-1115</styleUrl>
+				<Point>
+					<coordinates>-110.54761300000003,43.86612,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Jackson Lake Dam</name>
+				<styleUrl>#icon-503-7CCFA9-nodesc</styleUrl>
+				<Point>
+					<coordinates>-110.58977600000003,43.857566,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Jackson Lake</name>
+				<description><![CDATA[湖光潋滟晴方好，山色空濛雪亦齐。欲把Jenny配Jack，才子佳人总相宜。]]></description>
+				<styleUrl>#icon-503-0BA9CC</styleUrl>
+				<Point>
+					<coordinates>-110.67491300000002,43.892835,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Old Faithful Visitor Education Center</name>
+				<styleUrl>#icon-960-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>-110.82923900000003,44.458607,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Old Faithful</name>
+				<styleUrl>#icon-503-F4EB37-nodesc</styleUrl>
+				<Point>
+					<coordinates>-110.83144870000001,44.45664619999999,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Upper Geyser Basin</name>
+				<styleUrl>#icon-1195-nodesc</styleUrl>
+				<Point>
+					<coordinates>-110.82909999999998,44.4643775,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Grand Prismatic Spring</name>
+				<description><![CDATA[大棱镜，蛮经典的一个景点。]]></description>
+				<styleUrl>#icon-959-009D57</styleUrl>
+				<Point>
+					<coordinates>-110.838189,44.525082,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Midway Geyser Basin</name>
+				<description><![CDATA[与大棱镜相邻，打包送出的tripadvisor#7景点。]]></description>
+				<styleUrl>#icon-959-7CCFA9</styleUrl>
+				<Point>
+					<coordinates>-110.836944,44.525364,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Stage Coach Inn</name>
+				<styleUrl>#icon-960-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>-111.10286000000002,44.660756,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Great Fountain Geyster</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>-110.800032,44.536598,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Firehole Lake</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>-110.7847622,44.5442297,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Madison Information Station</name>
+				<styleUrl>#icon-960-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>-110.86210499999999,44.64224200000001,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Picture Hill - Start</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>-110.83888100000001,44.523632,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Picture Hill - End</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>-110.84015199999999,44.52406,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Firehole Falls</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>-110.86361,44.63083,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Firehole River Swimming Hole</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>-110.85995300000002,44.618088,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Sapphire Pool</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>-110.85525640000003,44.48503789999999,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Biscuit Basin</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>-110.85262699999998,44.485117,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>day3 (6-30)</name>
+			<Placemark>
+				<name>Gibbon Falls</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>-110.77383299999997,44.648565,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Grand Canyon of the Yellowstone</name>
+				<description><![CDATA[Tripadvisor#1 http://www.tripadvisor.com/Attraction_Review-g60999-d290469-Reviews-Grand_Canyon_of_the_Yellowstone-Yellowstone_National_Park_Wyoming.html]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<Point>
+					<coordinates>-110.48532,44.719745,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Canyon Village - General Store</name>
+				<styleUrl>#icon-960-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>-110.491356,44.73359,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Grand View</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>-110.484012,44.722665,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Lookout Point</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>-110.488584,44.720896,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Inspiration Point</name>
+				<styleUrl>#icon-503-0BA9CC-nodesc</styleUrl>
+				<Point>
+					<coordinates>-110.46968700000002,44.724984,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Brink of the Upper Falls</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>-110.49976100000003,44.713011,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Upper Falls of the Yellowstone</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>-110.50012400000003,44.712681,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Artist Point</name>
+				<description><![CDATA[Tripadvisor#5 http://www.tripadvisor.com/Attraction_Review-g60999-d532065-Reviews-Artist_Point-Yellowstone_National_Park_Wyoming.html]]></description>
+				<styleUrl>#icon-960-DB4436</styleUrl>
+				<Point>
+					<coordinates>-110.479841,44.720265,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Point Sublime</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>-110.46075780000001,44.7243828,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Hayden Valley</name>
+				<description><![CDATA[看野生动物极佳之所 http://www.tripadvisor.com/Attraction_Review-g60999-d3400613-Reviews-Hayden_Valley-Yellowstone_National_Park_Wyoming.html]]></description>
+				<styleUrl>#icon-1349</styleUrl>
+				<Point>
+					<coordinates>-110.45548000000001,44.643829,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Lake lodge</name>
+				<description><![CDATA[可供选择的一处住所]]></description>
+				<styleUrl>#icon-960-DB4436</styleUrl>
+				<Point>
+					<coordinates>-110.395789,44.555068,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Lower Falls of the Yellowstone</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>-110.49636800000002,44.718049,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Uncle Tom's Trail</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>-110.495834,44.715624,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Cody Cowboy Village</name>
+				<styleUrl>#icon-1037-nodesc</styleUrl>
+				<Point>
+					<coordinates>-109.09473000000004,44.517312,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Yellowstone Lake</name>
+				<styleUrl>#icon-1391-nodesc</styleUrl>
+				<Point>
+					<coordinates>-110.333307,44.462227,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Storm Point</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>-110.33380920000003,44.5482755,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Lake Yellowstone Hotel Dining Room</name>
+				<styleUrl>#icon-979-nodesc</styleUrl>
+				<Point>
+					<coordinates>-110.40092300000003,44.549945,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Dragons Mouth Spring</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>-110.4360354,44.6260512,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>day4 (7-1)</name>
+			<Placemark>
+				<name>Bear Tooth Pass Hwy</name>
+				<description><![CDATA[熊牙公路，这里地势险峻，可以看到很好的雪山风景]]></description>
+				<styleUrl>#icon-503-F8971B</styleUrl>
+				<Point>
+					<coordinates>-109.668149,44.933827,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>山顶</name>
+				<styleUrl>#icon-1371-nodesc</styleUrl>
+				<Point>
+					<coordinates>-109.4736207,44.9692139,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Exxon</name>
+				<styleUrl>#icon-1027-nodesc</styleUrl>
+				<Point>
+					<coordinates>-109.93239900000005,45.019792,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Trout Lake Trailhead</name>
+				<styleUrl>#icon-1371-nodesc</styleUrl>
+				<Point>
+					<coordinates>-110.12302799999998,44.899209,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Lamar Valley</name>
+				<styleUrl>#icon-1349-nodesc</styleUrl>
+				<Point>
+					<coordinates>-110.174589,44.868462,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Roosevelt Lodge Cabins</name>
+				<styleUrl>#icon-960-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>-110.41702499999997,44.912422,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Tower/Roosevelt Service Station</name>
+				<description><![CDATA[加油站]]></description>
+				<styleUrl>#icon-1027</styleUrl>
+				<Point>
+					<coordinates>-110.417528,44.91603,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Tower Fall</name>
+				<styleUrl>#icon-503-009D57-nodesc</styleUrl>
+				<Point>
+					<coordinates>-110.38744099999997,44.893871,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Mammoth Service Station</name>
+				<styleUrl>#icon-960-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>-110.703735,44.975271,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Mammoth Hot Springs Dining Room</name>
+				<styleUrl>#icon-1371-nodesc</styleUrl>
+				<Point>
+					<coordinates>-110.70259299999998,44.976024,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Best Western By Mammoth Hot Springs</name>
+				<styleUrl>#icon-1197-nodesc</styleUrl>
+				<Point>
+					<coordinates>-110.71569699999998,45.035369,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Boiling River</name>
+				<styleUrl>#icon-960-93D7E8-nodesc</styleUrl>
+				<Point>
+					<coordinates>-110.69143300000002,44.992503,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Lower Terraces Area</name>
+				<styleUrl>#icon-1371-nodesc</styleUrl>
+				<Point>
+					<coordinates>-110.70526100000001,44.968332,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Upper Terraces Area</name>
+				<styleUrl>#icon-1371-nodesc</styleUrl>
+				<Point>
+					<coordinates>-110.71186899999998,44.966592,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Tower General Store</name>
+				<styleUrl>#icon-960-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>-110.387046,44.892078,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>day5 (7-2)</name>
+			<Placemark>
+				<name>Mammoth</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>-110.6998729,44.976487,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Swan Lake</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>-110.7362437,44.9197596,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Roaring Mountain</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>-110.73727370000002,44.7800226,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Norris Geyser Basin</name>
+				<description><![CDATA[Tripadvisor#14 http://www.tripadvisor.com/Attraction_Review-g60999-d145231-Reviews-Norris_Geyser_Basin-Yellowstone_National_Park_Wyoming.html]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<Point>
+					<coordinates>-110.704281,44.726235,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Artist Paintpot Trail</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>-110.7415116,44.6964783,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>day6-黄石西回盐湖城 (7-3)</name>
+			<Placemark>
+				<name>W Thumb Geyser Basin Trail</name>
+				<styleUrl>#icon-503-4186F0-nodesc</styleUrl>
+				<Point>
+					<coordinates>-110.57194170000002,44.4167339,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Elk Ranch Flats Turnout</name>
+				<styleUrl>#icon-1115-nodesc</styleUrl>
+				<Point>
+					<coordinates>-110.52709900000002,43.810866,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>3533-4349 Hog Hollow Road, Ashton, ID 83420, USA</name>
+				<description><![CDATA[3533-4349 Hog Hollow Road, Ashton, ID 83420, USA]]></description>
+				<styleUrl>#icon-1115</styleUrl>
+				<Point>
+					<coordinates>-111.101141,44.68673,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Schwabachers Landing</name>
+				<styleUrl>#icon-1115-nodesc</styleUrl>
+				<Point>
+					<coordinates>-110.672198,43.707244,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>J.P. Cunningham Cabin</name>
+				<styleUrl>#icon-1115-nodesc</styleUrl>
+				<Point>
+					<coordinates>-110.55830000000005,43.77861,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Snake River Overlook</name>
+				<styleUrl>#icon-1115-nodesc</styleUrl>
+				<Point>
+					<coordinates>-110.6244218,43.7529797,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Mormon Row Historic District</name>
+				<styleUrl>#icon-1115-nodesc</styleUrl>
+				<Point>
+					<coordinates>-110.66467499999999,43.658575,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Blacktail Ponds Overlook</name>
+				<styleUrl>#icon-1115-nodesc</styleUrl>
+				<Point>
+					<coordinates>-110.69681800000001,43.666775,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Glacier View Turnout</name>
+				<styleUrl>#icon-1115-nodesc</styleUrl>
+				<Point>
+					<coordinates>-110.67267600000002,43.690859,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>KJ's Kwik Stop</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>-112.23880500000001,42.184496,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>KJ's Boozers</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>-112.051871,43.496416,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Starbucks</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>-112.05037900000002,43.495068,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Style id='icon-1027-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1027-biz-gas.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-1027-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1027-biz-gas.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-1027'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-1027-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-1027-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-1027-nodesc-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1027-biz-gas.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-1027-nodesc-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1027-biz-gas.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-1027-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-1027-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-1027-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-1037-nodesc-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1037-biz-house.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-1037-nodesc-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1037-biz-house.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-1037-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-1037-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-1037-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-1115-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1115-biz-video.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-1115-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1115-biz-video.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-1115'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-1115-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-1115-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-1115-nodesc-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1115-biz-video.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-1115-nodesc-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1115-biz-video.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-1115-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-1115-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-1115-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-1195-nodesc-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1195-fac-flag.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-1195-nodesc-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1195-fac-flag.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-1195-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-1195-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-1195-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-1197'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1197-fac-headquarters.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id='icon-1197-nodesc-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1197-fac-headquarters.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-1197-nodesc-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1197-fac-headquarters.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-1197-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-1197-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-1197-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-1349-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1349-poi-zoo.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-1349-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1349-poi-zoo.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-1349'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-1349-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-1349-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-1349-nodesc-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1349-poi-zoo.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-1349-nodesc-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1349-poi-zoo.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-1349-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-1349-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-1349-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-1371-nodesc-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1371-rec-hiking.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-1371-nodesc-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1371-rec-hiking.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-1371-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-1371-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-1371-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-1381-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1381-rec-picnic.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-1381-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1381-rec-picnic.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-1381'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-1381-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-1381-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-1381-nodesc'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1381-rec-picnic.png</href>
+				</Icon>
+			</IconStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-1391-nodesc-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1391-rec-spa.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-1391-nodesc-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1391-rec-spa.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-1391-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-1391-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-1391-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-1417-nodesc'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1417-trans-airport.png</href>
+				</Icon>
+			</IconStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-1441-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1441-trans-marina.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-1441-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1441-trans-marina.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-1441'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-1441-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-1441-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-503-009D57-nodesc-normal'>
+			<IconStyle>
+				<color>ff579D00</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-503-009D57-nodesc-highlight'>
+			<IconStyle>
+				<color>ff579D00</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-503-009D57-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-503-009D57-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-503-009D57-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-503-0BA9CC-normal'>
+			<IconStyle>
+				<color>ffCCA90B</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-503-0BA9CC-highlight'>
+			<IconStyle>
+				<color>ffCCA90B</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-503-0BA9CC'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-503-0BA9CC-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-503-0BA9CC-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-503-0BA9CC-nodesc-normal'>
+			<IconStyle>
+				<color>ffCCA90B</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-503-0BA9CC-nodesc-highlight'>
+			<IconStyle>
+				<color>ffCCA90B</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-503-0BA9CC-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-503-0BA9CC-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-503-0BA9CC-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-503-4186F0-nodesc-normal'>
+			<IconStyle>
+				<color>ffF08641</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-503-4186F0-nodesc-highlight'>
+			<IconStyle>
+				<color>ffF08641</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-503-4186F0-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-503-4186F0-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-503-4186F0-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-503-7CCFA9-nodesc-normal'>
+			<IconStyle>
+				<color>ffA9CF7C</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-503-7CCFA9-nodesc-highlight'>
+			<IconStyle>
+				<color>ffA9CF7C</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-503-7CCFA9-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-503-7CCFA9-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-503-7CCFA9-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-503-DB4436-normal'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-503-DB4436-highlight'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-503-DB4436'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-503-DB4436-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-503-DB4436-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-503-DB4436-nodesc-normal'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-503-DB4436-nodesc-highlight'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-503-DB4436-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-503-DB4436-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-503-DB4436-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-503-F4EB37-nodesc-normal'>
+			<IconStyle>
+				<color>ff37EBF4</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-503-F4EB37-nodesc-highlight'>
+			<IconStyle>
+				<color>ff37EBF4</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-503-F4EB37-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-503-F4EB37-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-503-F4EB37-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-503-F8971B-normal'>
+			<IconStyle>
+				<color>ff1B97F8</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-503-F8971B-highlight'>
+			<IconStyle>
+				<color>ff1B97F8</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-503-F8971B'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-503-F8971B-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-503-F8971B-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-959-009D57-normal'>
+			<IconStyle>
+				<color>ff579D00</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/959-wht-circle-blank.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-959-009D57-highlight'>
+			<IconStyle>
+				<color>ff579D00</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/959-wht-circle-blank.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-959-009D57'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-959-009D57-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-959-009D57-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-959-7CCFA9-normal'>
+			<IconStyle>
+				<color>ffA9CF7C</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/959-wht-circle-blank.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-959-7CCFA9-highlight'>
+			<IconStyle>
+				<color>ffA9CF7C</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/959-wht-circle-blank.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-959-7CCFA9'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-959-7CCFA9-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-959-7CCFA9-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-960-93D7E8-nodesc-normal'>
+			<IconStyle>
+				<color>ffE8D793</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/960-wht-star-blank.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-960-93D7E8-nodesc-highlight'>
+			<IconStyle>
+				<color>ffE8D793</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/960-wht-star-blank.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-960-93D7E8-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-960-93D7E8-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-960-93D7E8-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-960-DB4436'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/960-wht-star-blank.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id='icon-960-DB4436-nodesc-normal'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/960-wht-star-blank.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-960-DB4436-nodesc-highlight'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/960-wht-star-blank.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-960-DB4436-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-960-DB4436-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-960-DB4436-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-979-nodesc-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/979-biz-bar.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-979-nodesc-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/979-biz-bar.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-979-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-979-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-979-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+	</Document>
+</kml>
