@@ -1,0 +1,70 @@
+#places h1 {
+	display: block;
+	margin: 0 auto;
+    padding: 150px 0 30px;
+	width: 30%;
+	text-align: center;
+}
+
+#places p {
+	display: block;
+    margin: 5px auto;
+    width: 40%;
+    text-align: center;
+    font-size: 22px;
+}
+
+#details h1 {
+	display: block;
+	margin: 0 auto;
+    padding: 50px 0 30px;
+	width: 30%;
+	text-align: center;
+}
+
+#details p {
+	display: block;
+    margin: 5px auto;
+    width: 40%;
+    text-align: center;
+    font-size: 22px;
+}
+
+#summary h1 {
+	display: block;
+	margin: 0 auto;
+    padding: 50px 0 30px;
+	width: 30%;
+	text-align: center;
+}
+
+#summary p {
+	display: block;
+    margin: 5px auto;
+    width: 40%;
+    text-align: center;
+    font-size: 22px;
+}
+
+.summary {
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	width: 45%;
+	height: 40px;
+}
+
+.summary .email {
+	width: 85%;
+    height: 100%;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.summaryDetail {
+	display: block;
+    margin: 20px auto;
+    width: 65%;
+    height: 55%;
+}
+

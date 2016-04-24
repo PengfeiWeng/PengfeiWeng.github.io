@@ -1,17 +1,16 @@
-var tripPlanner = angular.module('tripPlanner', ['ngRoute']);
+var tripPlanner = angular.module('tripPlanner', []);
 
-var MainController = function($scope) {
+var MainController = function($scope, $window, $location) {
 
 	$scope.location = undefined;
 	
 	$scope.showMap = function() {
 		if (!$scope.location)
 			return;
-		console.log($scope.location);
+		console.log("Current location: " + $scope.location);
+		$window.location.href = "views/yourtrip.html";
 	};
 }
 
-tripPlanner.controller('MainController', ['$scope', MainController]);
-
-
+tripPlanner.controller('MainController', ['$scope', '$window', '$location', MainController]);
 
