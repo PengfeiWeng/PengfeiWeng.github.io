@@ -50,17 +50,31 @@
   			<section class='row' id='places'>
 				<div class='fill-screen fixed-attachment second-img'>
 					<h1>Here are the views</h1>
-  					<p>Go somewhere you've dreamed of.</p>
+					
+					<div class="trip-days">
+						<div class="day" ng-repeat="day in days">
+							<day view-model="day">
+						</div>
+						<div class="add-delete-day">
+			  				<button type="button" class="btn btn-default" ng-click="addDay()">
+		  						<span class="glyphicon glyphicon-plus"></span>
+							</button>
+							<button type="button" class="btn btn-default" ng-click="deleteDay()">
+		  						<span class="glyphicon glyphicon-minus"></span>
+							</button>
+		  				</div>
+					</div>
+					
 					<a class='down-button' href='#details'>
 	  					<i class='fa fa-arrow-circle-down fa-4x'></i>
 	  				</a>
+	  				
 				</div>
   			</section>
   			
   			<section class='row'  id='details'>
   				<div class='fill-screen fixed-attachment second-img'>
   					<h1>Here are the details</h1>
-  					<p>Go somewhere you've dreamed of.</p>
   				</div>
   			</section>
   			
