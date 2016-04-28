@@ -16,6 +16,12 @@
     <script data-require="angular.js@*" data-semver="1.5.0" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.js"></script>
     <script data-require="jquery@*" data-semver="2.2.0" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script data-require="bootstrap@*" data-semver="3.3.6" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  	<style>
+	    #map {
+	      height: 80%;
+	      width: 80%;
+	    }
+	</style>
   </head>
   
   <body ng-controller="yourTripController">
@@ -64,6 +70,8 @@
 							</button>
 		  				</div>
 					</div>
+					
+					<div id='map'></div>
 					
 					<a class='down-button' href='#details'>
 	  					<i class='fa fa-arrow-circle-down fa-4x'></i>
@@ -121,6 +129,43 @@
     		});
     		$(window).stellar();
     	});
+    	
+    	function initMap() {
+            // Go to YellowStone NP!!
+            var geocoder = new google.maps.Geocoder();
+            var address = "Yellow Stone";
+            var location = {};
+            geocoder.geocode( { 'address': address}, function(results, status) {
+              if (status == google.maps.GeocoderStatus.OK)
+              {
+                  // do something with the geocoded result
+                  location.lat = results[0].geometry.location.lat();
+                  location.lng = results[0].geometry.location.lng();
+                                    
+                  console.log("Location loaded successfully");
+
+                  // Create a map object and specify the DOM element for display.
+                  var map = new google.maps.Map(document.getElementById('map'), {
+                    center: location,
+                    scrollwheel: false,
+                    zoom: 10   // zoom level
+                  });
+
+                  // Create a marker and set its position.
+                  var marker = new google.maps.Marker({
+                    map: map,
+                    position: location,
+                    title: 'Hello World!'
+                  });
+              
+                  var ctaLayer = new google.maps.KmlLayer({
+                    url: 'https://sites.google.com/site/junlinyi/yellowstone-day1.kml',
+                    map: map
+                  });                      
+              }
+            });    
+          }      
     </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAl9UdtC2Qqws7hBTfIUOks7-Z6-Xjbz8k&callback=initMap"></script>
   </body>
 </html>
