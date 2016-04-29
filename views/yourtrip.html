@@ -16,17 +16,11 @@
     <script data-require="angular.js@*" data-semver="1.5.0" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.js"></script>
     <script data-require="jquery@*" data-semver="2.2.0" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script data-require="bootstrap@*" data-semver="3.3.6" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  	<style>
-	    #map {
-	      height: 80%;
-	      width: 80%;
-	    }
-	</style>
   </head>
   
   <body ng-controller="yourTripController">
   	<header>
-  	<nav class="navbar navbar-default navbar-fixed-top cbp-af-header">
+  	<nav class="navbar navbar-default navbar-fixed-top">
 	  <div class="container-fluid">
 	    <!-- Brand and toggle get grouped for better mobile display -->
 	    <div class="navbar-header">
@@ -51,15 +45,16 @@
 	  </div><!-- /.container-fluid -->
 	</nav>
   	</header>
-  	
   		<div class='container-fluid'>
   			<section class='row' id='places'>
 				<div class='fill-screen fixed-attachment second-img'>
-					<h1>Here are the views</h1>
+					<maps markers="markers"></maps>
+					
+					<description view-model='markerDetails'></description>
 					
 					<div class="trip-days">
 						<div class="day" ng-repeat="day in days">
-							<day view-model="day">
+							<day view-model="day"></day>
 						</div>
 						<div class="add-delete-day">
 			  				<button type="button" class="btn btn-default" ng-click="addDay()">
@@ -70,11 +65,9 @@
 							</button>
 		  				</div>
 					</div>
-					
-					<div id='map'></div>
-					
-					<a class='down-button' href='#details'>
-	  					<i class='fa fa-arrow-circle-down fa-4x'></i>
+
+					<a class='down-button next' href='#details'>
+	  					<span class="glyphicon glyphicon-ok-circle" aria-hidden="true"></span>
 	  				</a>
 	  				
 				</div>
@@ -84,6 +77,10 @@
   				<div class='fill-screen fixed-attachment second-img'>
   					<h1>Here are the details</h1>
   				</div>
+  				
+  				<a class='down-button' href='#details'>
+	  				<span class="glyphicon glyphicon-ok-circle" aria-hidden="true"></span>
+	  			</a>
   			</section>
   			
   			<section class='row'  id='summary'>
@@ -98,15 +95,13 @@
 				  	<textarea class="summaryDetail" placeholder="details and summary..."></textarea>
   				</div>
   			</section>
-  			
-  			
   		</div>
   	
-  	<script src="../scripts/controllers/yourTripController.js"></script>
     <script src="../scripts/external/classie.js"></script>
-    <script src="../scripts/external/cbpAnimatedHeader.js"></script>
     <script src="../scripts/external/jquery.easing.1.3.js"></script>
     <script src="../scripts/external/jquery.stellar.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAl9UdtC2Qqws7hBTfIUOks7-Z6-Xjbz8k"></script>
+    <script src="../scripts/controllers/yourTripController.js"></script>
     <script>
     	$(function(){
     		/***
@@ -116,7 +111,7 @@
     		$(window).on('load resize', function(){
     			$('.fill-screen').css('height', window.innerHeight);
     		});
-    		// update sataus of navigation bar
+    		// update status of navigation bar
     		$('body').scrollspy({
     			target: '.navbar'
     		});
@@ -128,44 +123,7 @@
     			event.preventDefault();
     		});
     		$(window).stellar();
-    	});
-    	
-    	function initMap() {
-            // Go to YellowStone NP!!
-            var geocoder = new google.maps.Geocoder();
-            var address = "Yellow Stone";
-            var location = {};
-            geocoder.geocode( { 'address': address}, function(results, status) {
-              if (status == google.maps.GeocoderStatus.OK)
-              {
-                  // do something with the geocoded result
-                  location.lat = results[0].geometry.location.lat();
-                  location.lng = results[0].geometry.location.lng();
-                                    
-                  console.log("Location loaded successfully");
-
-                  // Create a map object and specify the DOM element for display.
-                  var map = new google.maps.Map(document.getElementById('map'), {
-                    center: location,
-                    scrollwheel: false,
-                    zoom: 10   // zoom level
-                  });
-
-                  // Create a marker and set its position.
-                  var marker = new google.maps.Marker({
-                    map: map,
-                    position: location,
-                    title: 'Hello World!'
-                  });
-              
-                  var ctaLayer = new google.maps.KmlLayer({
-                    url: 'https://sites.google.com/site/junlinyi/yellowstone-day1.kml',
-                    map: map
-                  });                      
-              }
-            });    
-          }      
+    	}); 
     </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAl9UdtC2Qqws7hBTfIUOks7-Z6-Xjbz8k&callback=initMap"></script>
   </body>
 </html>
