@@ -5,6 +5,7 @@ var yourTripController = function($scope, $window, $location) {
 	$scope.email = undefined;
 	
 	$scope.markers = [
+	    // name, lat, lng, z-index
 		["Upper Geyser Basin", 44.46437, -110.82909, 1],
 		["Old Faithful", 44.45664, -110.83144, 2],
 		["Firehole Lake", 44.54422, -110.78476, 3],
@@ -15,15 +16,18 @@ var yourTripController = function($scope, $window, $location) {
 	$scope.description = {
 			'Yellow Stone': {
 				url: '../imgs/yellowStone/yellowStone.jpg',
-				description: "Yellow Stone"
+				description: "Yellow Stone",
+				hour: 15,
 			},
 			'Old Faithful': {
 				url: '../imgs/yellowStone/oldFaithful.jpg',
-				description: "Old Faithful"
+				description: "Old Faithful",
+				hour: 2,
 			},
 			'Grand Prismatic Spring': {
 				url: '../imgs/yellowStone/grandPrismaticSpring.jpg',
-				description: "Grand Prismatic Spring"
+				description: "Grand Prismatic Spring",
+				hour: 3,
 			},
 	};
 	
@@ -32,7 +36,16 @@ var yourTripController = function($scope, $window, $location) {
 	$scope.days = [
 	    {
 	    	selected: false,
-	    	places: ["Mount Rainer", "Space Needle"],
+	    	places: [
+	    	{
+	    		name: "Mount Rainer",
+	    		hour: 4,
+	    	},
+	    	{
+	    		name: "Space Needle",
+	    		hour: 3,
+	    	}]
+	    	
 	    },
 	    {
 	    	selected: false,
@@ -71,7 +84,10 @@ var yourTripController = function($scope, $window, $location) {
 	function addPlace(name) {
 		for (var i=0; i<$scope.days.length; i++) {
 			if ($scope.days[i].selected) {
-				$scope.days[i].places.push(name);
+				$scope.days[i].places.push({
+					name: name,
+					hour: $scope.markerDetails.hour,
+				});
 				$scope.$apply();
 				return;
 			}
@@ -98,6 +114,16 @@ app.directive('day', function() {
     	$scope.selected = function() {
         	$scope.viewModel.selected = !$scope.viewModel.selected;
         };
+        
+        $scope.totalHours = 0;
+        
+        $scope.$watch('viewModel.places.length', function(){
+        	$scope.totalHours = 0;
+        	for (var i=0; i<$scope.viewModel.places.length; i++){
+            	$scope.totalHours += $scope.viewModel.places[i].hour;
+            }
+        	$scope.apply();
+        });
     },
   };
 });

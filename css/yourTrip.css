@@ -49,20 +49,6 @@
 	overflow: hidden;
 }
 
-#places .day .place {
-	display: block;
-	width: 95%;
-	height: 20px;
-	margin: 2px auto;
-}
-
-#places .day .placeList {
-	display: block;
-	width: 98%;
-	height: 98%;
-	margin: 1%;
-}
-
 #places .add-delete-day {
 	display: inline-block;
 	height: 90%;
@@ -74,10 +60,6 @@
 	display: block;
 	height: 30%;
 	margin: 20% auto;
-}
-
-#places .selected {
-	background: #333333;
 }
 
 #details h1 {
@@ -101,22 +83,27 @@
 	display: block;
 	position: relative;
 	margin: 0 auto;
-	width: 45%;
+	width: 40%;
 	height: 40px;
 }
 
 .summary .email {
-	width: 85%;
+	width: 90%;
     height: 100%;
-    font-size: 20px;
+    font-size: 18px;
     vertical-align: middle;
+}
+
+.summary .emailButton {
+	width: 8%;
+    height: 100%;
 }
 
 .summaryDetail {
 	display: block;
     margin: 20px auto;
-    width: 65%;
-    height: 55%;
+    width: 40%;
+    height: 40%;
 }
 
 /* description directive */
@@ -130,4 +117,47 @@
 	position: absolute;
 	bottom: 5px;
 	right: 5px;
+}
+
+
+/* day directive */
+#places .selected {
+	background: #333333;
+}
+
+#places .underLimit {
+	background-color: rgba(0, 255, 0, 0.4);
+}
+
+#places .overLimit {
+	background-color: rgba(255, 0, 0, 0.4);
+}
+
+#places .day .placeList {
+	display: block;
+	width: 98%;
+	height: 98%;
+	margin: 1%;
+	position: relative;
+}
+
+#places .day .place {
+	display: block;
+	width: 95%;
+	height: 24px;
+	margin: 4px auto;
+	text-align: center;
+	background-color: rgba(100, 100, 100, 0.5);
+}
+
+.totalHours {
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 100px;
+	font-weight: 800;
+	opacity: 0.3;
+	z-index: 0;
 }

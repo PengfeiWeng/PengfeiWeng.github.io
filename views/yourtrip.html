@@ -76,11 +76,11 @@
   			<section class='row'  id='details'>
   				<div class='fill-screen fixed-attachment second-img'>
   					<h1>Here are the details</h1>
+  					<a class='down-button' href='#details'>
+		  				<span class="glyphicon glyphicon-ok-circle" aria-hidden="true"></span>
+		  			</a>
   				</div>
-  				
-  				<a class='down-button' href='#details'>
-	  				<span class="glyphicon glyphicon-ok-circle" aria-hidden="true"></span>
-	  			</a>
+
   			</section>
   			
   			<section class='row'  id='summary'>
@@ -88,7 +88,7 @@
   					<h1>Here are the summary</h1>
   					<div class="summary">
 				      <input type="text" class="email" placeholder="email address" ng-model="email">
-				      <button class="btn" type="button" ng-click="sendEmail()">
+				      <button class="btn emailButton" type="button" ng-click="sendEmail()">
 				        <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
 				       </button>
 				  	</div><!-- /input-group -->
