@@ -1,5 +1,5 @@
 body {
-  font-family: monospace;
+  font-family: Serif;
 }
 
 .navbar {
@@ -81,7 +81,7 @@ body {
 
 .fill-screen.first-img {
 	background-image: url(../imgs/Sakura.jpg);
-	opacity: 0.75;
+	opacity: 0.85;
 }
 
 .fill-screen.second-img {
@@ -158,6 +158,7 @@ body {
     padding: 50px 0 30px;
 	width: 30%;
 	text-align: center;
+	color: #505050; 
 }
 
 #destinations p {
@@ -166,6 +167,7 @@ body {
     width: 40%;
     text-align: center;
     font-size: 22px;
+    color: #505050;
 }
 
 #aboutus h1 {
@@ -174,6 +176,7 @@ body {
     padding: 50px 0 30px;
 	width: 30%;
 	text-align: center;
+	color: #505050;
 }
 
 #aboutus p {
@@ -182,6 +185,7 @@ body {
     width: 40%;
     text-align: center;
     font-size: 22px;
+    color: #505050;
 }
 
 .figure figcaption .lable {
