@@ -4,6 +4,7 @@ var yourTripController = function($scope, $window, $location) {
 
 	$scope.email = undefined;
 	
+	/* 
 	$scope.markers = [
 	    // name, lat, lng, z-index
 		["Upper Geyser Basin", 44.46437, -110.82909, 1],
@@ -30,8 +31,21 @@ var yourTripController = function($scope, $window, $location) {
 				hour: 3,
 			},
 	};
+	*/
 	
-	$scope.markerDetails = $scope.description['Yellow Stone'];
+	$scope.markers = [
+	          	    // name, lat, lng, z-index
+	          		["Space Needle", 47.62042, -122.34935, 1],
+	          		["EMP Museum", 47.62148, -122.34812, 2],
+	          		["Seattle Public Library", 47.6067, -122.3325, 3],
+	          		["Gas Works Park", 47.64563, -122.33435, 4],
+	          		["Seattle Great Wheel", 47.60617, -122.34252, 5],
+	          		["University of Washington", 47.65533, -122.30351, 5],
+	          		["Pike Place Market", 47.61013, -122.34205, 5],
+	          		["Discovery Park", 47.66129, -122.4178, 5]
+	          	];
+	
+	//$scope.markerDetails = $scope.description['Yellow Stone'];
 	
 	$scope.days = [
 	    {
@@ -49,7 +63,23 @@ var yourTripController = function($scope, $window, $location) {
 	    },
 	    {
 	    	selected: false,
-		    places: [],
+	    	places: [
+	    		    	{
+	    		    		name: "Gas Works Park",
+	    		    		hour: 4,
+	    		    	},
+	    		    	{
+	    		    		name: "Discovery Park",
+	    		    		hour: 3,
+	    		    	},
+	    		    	{
+	    		    		name: "EMP Museum",
+	    		    		hour: 3,
+	    		    	},
+	    		    	{
+	    		    		name: "Seattle Public Library",
+	    		    		hour: 4,
+	    		    	}]
 	    }
 	];
 	
@@ -154,9 +184,9 @@ app.directive('maps', function() {
 	    	function initialize() {
 	    		// Create map of YellowStone NP and specify the DOM element for display.
                 var map = new google.maps.Map(document.getElementById('googleMap'), {
-                  center: { lat:44.42796, lng:-110.58845 },
+                  center: { lat:47.6062, lng:-122.33207 },
                   scrollwheel: false,
-                  zoom: 11   // zoom level
+                  zoom: 12   // zoom level
                 });
 
                 // Create markers
